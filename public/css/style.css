@@ -6,3 +6,8 @@ body{
 a{
     text-decoration: none;
 }
+.card{
+    box-shadow: 2px 5px 15px #e2dede;
+    padding: 10px 20px;
+    margin: 20px 0;
+}

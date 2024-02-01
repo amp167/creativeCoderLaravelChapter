@@ -7,8 +7,11 @@
     <meta http-equiv="X-UA-Compatible"
           content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <?= $blog;?>
+    <h1><?= $blog->title;?></h1>
+    <p><?= $blog->body;?></p>
+    <a href="/">Go Back</a>
 </body>
 </html>

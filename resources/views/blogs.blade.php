@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <?php foreach ($blogs as $blog) :?>
-    <h2><a href="blogs/<?=$blog->slug;?>"><?=$blog->title;?></a></h2>
-    <p><?=$blog->intro;?></p>
-    <?php endforeach; ?>
-
-
-
+        <?php foreach ($blogs as $blog) :?>
+        <div class="card">
+            <h2><a href="blogs/<?=$blog->slug;?>"><?=$blog->title;?></a></h2>
+            <p>Published at - <?= $blog->date?></p>
+            <p><?=$blog->intro;?></p>
+        </div>
+        <?php endforeach; ?>
 </body>
 </html>
