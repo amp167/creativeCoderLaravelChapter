@@ -11,3 +11,7 @@ a{
     padding: 10px 20px;
     margin: 20px 0;
 }
+.color{
+    background-color: #ddf1b2;
+    color: gray;
+}
